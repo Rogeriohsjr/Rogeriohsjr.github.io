@@ -3,6 +3,7 @@
         {% for item in site.data.navigation %}
         <li class="menu-item">
             <a href="{{item.link}}" {% if page.url == item.link %}class="current" {% endif %}>
+                <i class="fas fa-book" aria-hidden="true"></i>&nbsp;
                 {{ item.name }}
             </a>
         </li>
