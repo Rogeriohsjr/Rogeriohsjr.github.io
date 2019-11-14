@@ -1,0 +1,49 @@
+.post-container li {
+    list-style-type: none;
+}
+
+.post-title-header{
+    display: flex;
+}
+.post-title-header-text{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.post-title-header-image{
+    width: 32px;
+    display: inline-block;
+}
+
+.post-item-header{
+    color: #494e52;
+    font-size: 22px;
+    text-decoration: none;
+    display: flex;
+}
+
+.post-item-header span{
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.post-item-image{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+span.icon-post-book {
+    height: 24px;
+    width: 24px;
+    background-image: url(/assets/images/book-close32x32.png);
+    background-repeat: round;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.post-item-header:hover > span.icon-post-book{
+    background-image: url(/assets/images/book-open32x32.png);   
+}

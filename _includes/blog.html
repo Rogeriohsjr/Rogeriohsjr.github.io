@@ -1,10 +1,13 @@
 <div class="post-container">
-    <h1><i class="fas fa-book-reader"></i>&nbsp;Latest Posts</h1>
+    <div class="post-title-header" >
+        <img src="/assets/images/books-stack64x64.png" class="post-title-header-image" />
+        <span class="post-title-header-text">Latest Posts</span>
+    </div>
     <ul class="post-list">
         {% for post in site.posts %}
         <li class="post-item">
             <a href="{{ post.url }}" class="post-item-header">
-                <i class="fab fa-readme"></i>
+                <span class="icon-post-book"></span>
                 <span>{{ post.title }}</span>
             </a>
             <p class="post-item-description">
