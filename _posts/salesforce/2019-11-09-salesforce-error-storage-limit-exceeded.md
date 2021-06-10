@@ -29,6 +29,23 @@ ListObjects =
 System.debug(
     ListObjects.size()
 );
+    
+    
+List<ContentDocument> ListOfDocument =
+    [SELECT id from ContentDocument];
+
+System.debug(
+    ListOfDocument.size()
+);
+
+Database.delete(ListOfDocument, false);
+
+ListOfDocument =
+    [SELECT id from ContentDocument];
+
+System.debug(
+    ListOfDocument.size()
+);
 {% endhighlight %}
 
 Clean the Bin as well
