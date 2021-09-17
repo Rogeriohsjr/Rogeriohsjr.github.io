@@ -16,9 +16,7 @@ Here are some bullet points that we should cover on this REST API
 5. The response should be aligned with Salesforce.
 6. 
 
-
 {% highlight apex %}
-
 @RestResource(urlMapping='/people/v1/*')
 global with sharing class PeopleController {
 
@@ -77,6 +75,7 @@ global with sharing class PeopleController {
 
 }
 {% endhighlight %}
+
 
 
 Here are some comments from this class:
