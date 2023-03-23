@@ -18,6 +18,10 @@ echo $Test
 printenv
 
 
+# After make changes in variable run
+
+source ~/.bash_profile
+
 
 
 Source:
